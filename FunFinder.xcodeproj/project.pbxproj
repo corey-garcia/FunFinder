@@ -12,6 +12,7 @@
 		0453CA7C2290999B00D5E74E /* FunFinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0453CA7A2290999B00D5E74E /* FunFinder.xcdatamodeld */; };
 		0453CA7E2290999D00D5E74E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0453CA7D2290999D00D5E74E /* Assets.xcassets */; };
 		0453CA812290999D00D5E74E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0453CA7F2290999D00D5E74E /* LaunchScreen.storyboard */; };
+		049B0F902290A52C002D8F02 /* AddPhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049B0F8F2290A52C002D8F02 /* AddPhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0453CA7D2290999D00D5E74E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0453CA802290999D00D5E74E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0453CA822290999D00D5E74E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049B0F8F2290A52C002D8F02 /* AddPhotoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				0453CA88229099E400D5E74E /* Supporting Files */,
 				0453CA772290999B00D5E74E /* Main.storyboard */,
+				049B0F8F2290A52C002D8F02 /* AddPhotoViewController.swift */,
 				0453CA7D2290999D00D5E74E /* Assets.xcassets */,
 				0453CA822290999D00D5E74E /* Info.plist */,
 			);
@@ -144,6 +147,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0453CA742290999B00D5E74E /* AppDelegate.swift in Sources */,
+				049B0F902290A52C002D8F02 /* AddPhotoViewController.swift in Sources */,
 				0453CA7C2290999B00D5E74E /* FunFinder.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

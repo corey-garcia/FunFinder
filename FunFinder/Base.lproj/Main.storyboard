@@ -48,7 +48,7 @@
         <!--Add New Photo-->
         <scene sceneID="Ds7-Bl-PvF">
             <objects>
-                <viewController id="1Ij-kH-lZl" sceneMemberID="viewController">
+                <viewController id="1Ij-kH-lZl" customClass="AddPhotoViewController" customModule="FunFinder" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="UhF-eo-aDg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -64,6 +64,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="PhotoLibrary"/>
+                                <connections>
+                                    <action selector="photoLibraryTapped:" destination="1Ij-kH-lZl" eventType="touchUpInside" id="sab-2N-OkJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VRk-tC-VSv">
                                 <rect key="frame" x="144" y="316" width="127" height="103"/>
@@ -75,11 +78,11 @@
                                 <rect key="frame" x="87" y="718" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Caption" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d91-9F-deE">
-                                <rect key="frame" x="20" y="503" width="374" height="40"/>
+                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Type your caption here." borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d91-9F-deE">
+                                <rect key="frame" x="20" y="503" width="374" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Rs-mm-UQ6">
@@ -93,6 +96,9 @@
                         <viewLayoutGuide key="safeArea" id="m2O-AK-JVg"/>
                     </view>
                     <navigationItem key="navigationItem" title="Add New Photo" id="Vnl-KF-1Pe"/>
+                    <connections>
+                        <outlet property="imageView" destination="HUe-ld-mfn" id="ArV-Ey-gWy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wCC-yY-J62" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
