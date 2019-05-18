@@ -71,7 +71,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="24"/>
                                 <state key="normal" title="Albums"/>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="HUe-ld-mfn">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="IMG_0128" translatesAutoresizingMaskIntoConstraints="NO" id="HUe-ld-mfn">
                                 <rect key="frame" x="87" y="718" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -117,4 +117,7 @@
             <point key="canvasLocation" x="-108.69565217391305" y="147.99107142857142"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="IMG_0128" width="1125" height="1678"/>
+    </resources>
 </document>
